@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes">
+    <test name="Crypto">
+        <classes>
+            <class name="Bitcoin"></class>
+            <class name="BinanceCoin"></class>
+            <class name="DogeCoin"></class>
+            <class name="Ethereum"></class>
+            <class name="Monero"></class>
+            <class name="PolcaDot"></class>
+            <class name="TronCoin"></class>
+        </classes>
+    </test>
+</suite>

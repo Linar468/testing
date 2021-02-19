@@ -12,7 +12,7 @@ public class Bitcoin extends BaseTest{
     String deviation = "";
     String percent = "";
     String writeLine = "";
-    @Test(priority = 1)
+    @Test
     public void readValues(){
         getDriver().get(URL);
         currentCourse = getDriver().findElement(By.cssSelector("span[id='last_last']")).getText();
@@ -20,10 +20,8 @@ public class Bitcoin extends BaseTest{
         percent = getDriver().findElement(By.xpath("//span[contains(@class, 'arial_20')]/following-sibling::span[2]")).getText();
         writeLine = (currentCourse + "   " + deviation + "   "+ percent + "   " + date.toString());
         System.out.println(writeLine);
-    }
-    @Test (priority = 2)
-    public void write(){
-        try(FileWriter writer = new FileWriter("bitcoin.txt", true))
+
+        try(FileWriter writer = new FileWriter("data/bitcoin.txt", true))
         {
             writer.write(writeLine);
             writer.append('\n');

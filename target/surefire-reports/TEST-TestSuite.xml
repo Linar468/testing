@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="39.096" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="36.592" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
-    <property name="sun.java.command" value="C:\Users\Linar\AppData\Local\Temp\surefire8710642994074970591\surefirebooter13917009666792881983.jar C:\Users\Linar\AppData\Local\Temp\surefire8710642994074970591 2021-02-19T09-12-37_256-jvmRun1 surefire14679808702313468023tmp surefire_016009838402696535046tmp"/>
+    <property name="sun.java.command" value="C:\Users\Linar\AppData\Local\Temp\surefire4916696790925224591\surefirebooter8791790032615932507.jar C:\Users\Linar\AppData\Local\Temp\surefire4916696790925224591 2021-02-19T12-24-54_377-jvmRun1 surefire8729453814908737789tmp surefire_012988736801424865085tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Linar\Desktop\prototype\target\test-classes;C:\Users\Linar\Desktop\prototype\target\classes;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Linar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Linar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Linar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Linar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Linar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Linar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Linar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Linar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Linar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Linar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Linar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Linar\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Linar\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Linar\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Linar\AppData\Local\Temp\surefire8710642994074970591\surefirebooter13917009666792881983.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Linar\AppData\Local\Temp\surefire4916696790925224591\surefirebooter8791790032615932507.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9+7-LTS"/>
@@ -61,136 +61,85 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="readValues" classname="Bitcoin" time="13.768">
-    <system-out><![CDATA[52,717.7   +1002.0   +1.94%   Fri Feb 19 09:12:43 MSK 2021
+  <testcase name="readValues" classname="BinanceCoin" time="11.924">
+    <system-out><![CDATA[264.5754   +77.8247   +41.67%   Fri Feb 19 12:24:57 MSK 2021
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 10900
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 16241
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting ChromeDriveSrtarti 8ng8. C0h.r4o3m2e4D.9ri6v e(6r8d 8b8a.20d.84a30b214.499a61 d(63a8dfabac526d8faa07b4614498a0132d3bcafac56f4f6ab7-46r4ef80s3/2bbrcafnc46h-b-hreeadfss//4br32an4c@h{#-h1e78a4ds}/)4 32o4n@ {p#o1r784}) on potr t1 049510212
-
-OnOnlyl yl olcoacla l ccoonnnneeccttiioonnss ar e aarlelo waeldl.ow
-ePdl.ea
-sPel esaee hset tpsse:e/ /httcphsr:o/m/chromeedrdirvievre.rc.hrcohmrioummiu.omr.ogrg/s/seceucruirtiy-tcyo-ncsoindesriadterations fori osnsu gfogre sstuigogness toino nkse eopni nkege pCinhromeDrig ChromeDriver safe.
-ver safe.
-ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 40746
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#178St4a}r)t iongn C hproomrteD ri30ve46r 
+88On.0ly.4 3l24o.ca9l6  co(6n8ndecbati2do8nsa0 bar1e49 aa1ldlo3awfeda.c56
+fPla7e4a6s4e8 s0e3e2 bhcftt4p6sb:-/r/ecfhsr/obmreadnrcihv-ehre.acdhsr/om4i3u2m4.@o{r#g1/s7e8cu4r}it)y o-nc opnosritd e2r3a4t7io
+nOsn floy rl suogcgaels tcoionnnesc toino nsk aereep ianlgl oCwehdr.om
+ePDlreiasveer  sseaef eht.tp
+s://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 48221
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 39944
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 7969
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-февр. 19, 2021 9:12:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+февр. 19, 2021 12:25:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-февр. 19, 2021 9:12:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+февр. 19, 2021 12:25:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-февр. 19, 2021 9:12:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+февр. 19, 2021 12:25:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-февр. 19, 2021 9:12:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+февр. 19, 2021 12:25:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-февр. 19, 2021 9:12:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+февр. 19, 2021 12:25:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="write" classname="Bitcoin" time="0.001">
-    <system-err><![CDATA[февр. 19, 2021 9:13:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <testcase name="readValues" classname="Ethereum" time="12.222">
+    <system-out><![CDATA[1,931.74   +31.63   +1.66%   Fri Feb 19 12:24:57 MSK 2021
+]]></system-out>
+  </testcase>
+  <testcase name="readValues" classname="Bitcoin" time="12.226">
+    <system-out><![CDATA[52,598.9   +1228.4   +2.39%   Fri Feb 19 12:24:57 MSK 2021
+]]></system-out>
+  </testcase>
+  <testcase name="readValues" classname="DogeCoin" time="12.231">
+    <system-out><![CDATA[0.056357   +0.004864   +9.45%   Fri Feb 19 12:24:57 MSK 2021
+]]></system-out>
+  </testcase>
+  <testcase name="readValues" classname="Monero" time="12.615">
+    <system-out><![CDATA[272.558   +13.867   +5.36%   Fri Feb 19 12:24:57 MSK 2021
+]]></system-out>
+  </testcase>
+  <testcase name="readValues" classname="TronCoin" time="6.279">
+    <system-out><![CDATA[0.062062   +0.009099   +17.18%   Fri Feb 19 12:24:57 MSK 2021
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 29454
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+февр. 19, 2021 12:25:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="readValues" classname="Monero" time="13.774">
-    <system-out><![CDATA[271.607   +6.923   +2.62%   Fri Feb 19 09:12:43 MSK 2021
+  <testcase name="readValues" classname="PolcaDot" time="6.458">
+    <system-out><![CDATA[33.84710   +2.88840   +9.33%   Fri Feb 19 12:24:57 MSK 2021
 ]]></system-out>
-  </testcase>
-  <testcase name="write" classname="Monero" time="0"/>
-  <testcase name="readValues" classname="BinanceCoin" time="13.954">
-    <system-out><![CDATA[251.8494   +63.3992   +33.64%   Fri Feb 19 09:12:43 MSK 2021
-]]></system-out>
-  </testcase>
-  <testcase name="write" classname="BinanceCoin" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 16632
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 24184
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 16652
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 22600
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 19370
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriveCrh rwoamseD rsitvaerr was started tsuccessfeuldl ys.uc
-cessfully.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 22322
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-февр. 19, 2021 9:13:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-февр. 19, 2021 9:13:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="readValues" classname="DogeCoin" time="14.455">
-    <system-out><![CDATA[0.055926   +0.005618   +11.17%   Fri Feb 19 09:12:43 MSK 2021
-]]></system-out>
-  </testcase>
-  <testcase name="write" classname="DogeCoin" time="0">
-    <system-err><![CDATA[февр. 19, 2021 9:13:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="readValues" classname="Ethereum" time="14.473">
-    <system-out><![CDATA[1,932.76   +42.68   +2.26%   Fri Feb 19 09:12:43 MSK 2021
-]]></system-out>
-  </testcase>
-  <testcase name="write" classname="Ethereum" time="0">
-    <system-err><![CDATA[февр. 19, 2021 9:13:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="readValues" classname="PolcaDot" time="7.935">
-    <system-out><![CDATA[32.38570   +0.82140   +2.60%   Fri Feb 19 09:12:43 MSK 2021
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 33245
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 7705
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-февр. 19, 2021 9:13:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-февр. 19, 2021 9:13:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+февр. 19, 2021 12:25:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
   <testcase name="write" classname="PolcaDot" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 13533
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 6552
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 16878
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-февр. 19, 2021 9:13:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="readValues" classname="TronCoin" time="8.874">
-    <system-out><![CDATA[0.060766   +0.007748   +14.61%   Fri Feb 19 09:12:43 MSK 2021
-]]></system-out>
-  </testcase>
-  <testcase name="write" classname="TronCoin" time="0">
-    <system-err><![CDATA[февр. 19, 2021 9:13:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+февр. 19, 2021 12:25:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

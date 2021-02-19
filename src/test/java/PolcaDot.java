@@ -14,7 +14,7 @@ public class PolcaDot extends BaseTest{
     String writeLine = "";
 
 
-    @Test(priority = 1)
+    @Test
     public void readValues(){
         getDriver().get(URL);
         currentCourse = getDriver().findElement(By.cssSelector("span[id='last_last']")).getText();
@@ -22,10 +22,8 @@ public class PolcaDot extends BaseTest{
         percent = getDriver().findElement(By.xpath("//span[contains(@class, 'arial_20')]/following-sibling::span[2]")).getText();
         writeLine = (currentCourse + "   " + deviation + "   "+ percent + "   " + date.toString());
         System.out.println(writeLine);
-    }
-    @Test (priority = 2)
-    public void write(){
-        try(FileWriter writer = new FileWriter("polcadot.txt", true))
+
+        try(FileWriter writer = new FileWriter("data/polcadot.txt", true))
         {
             writer.write(writeLine);
             writer.append('\n');

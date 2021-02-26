@@ -12,7 +12,7 @@ public class BaseTest {
     {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.setHeadless(true);
+        options.setHeadless(false);
         driver.set(new ChromeDriver(options));
     }
 
